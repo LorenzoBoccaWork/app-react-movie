@@ -1,7 +1,7 @@
 import './CardMedia.css';
 
 interface CardMediaProps {
-  type?: 'movie' | 'series';
+  type: 'movie' | 'series';
 }
 
 // Definiamo le interfacce per i dati
