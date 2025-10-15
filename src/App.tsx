@@ -1,5 +1,4 @@
 import './App.css';
-import CardMedia from './components/CardMedia';
 import Header from './components/Header';
 import HeroMedia from './components/HeroMedia';
 
