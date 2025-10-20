@@ -1,3 +1,4 @@
+import Button from './Button';
 import './Header.css';
 
 function Header() {
@@ -11,7 +12,7 @@ function Header() {
             className="search-input" 
             placeholder="Cerca film o serie..." 
           />
-          <button type="submit" className="search-button">Cerca</button>
+          <Button text="Cerca"  disabled={false}  />
         </form>
       </div>
     </header>
